@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer-container {
+    background-color: rgb(66, 2, 111)
+    ; 
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .logo span {
+    color: #6c63ff; 
+  }
+  
+  .subscribe {
+    margin-bottom: 20px;
+    display: flex; 
+  }
+  
+  .email-input {
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    height: 40px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    margin: 4px;
+  }
+  
+  .subscribe-btn {
+    border-radius: 0 5px 5px 0;
+    background-color: #6c63ff;
+    border: 1px solid #6c63ff;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #5650d9;
+    border-color: #5650d9;
+  }
+  
+  .links {
+    margin-bottom: 30px; /* הגדלתי קצת את המרווח מלמטה כדי שיתאים לתמונה */
+  }
+  
+  .links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .white-line {
+    border-top: 1px solid white;
+    margin-bottom: 30px; /* הגדלתי קצת את המרווח מלמטה כדי שיתאים לתמונה */
+    width: 80%;
+  }
+  
+  .d-flex.justify-content-between.w-100.align-items-center {
+    margin-bottom: 20px; /* הוספתי מרווח מלמטה */
+  }
+  
+  .language-buttons {
+    display: flex;
+  }
+  
+  .language-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 0.9rem; /* הקטנתי קצת את הפונט שיתאים יותר */
+  }
+  
+  .language-btn:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .social-icons svg {
+    margin-left: 10px;
+  }
