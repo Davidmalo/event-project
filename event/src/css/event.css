@@ -1,0 +1,65 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+  color: white;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/img-david/0d55464672c777fe2598b4a832227655.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+.backbutton {
+  width: 75px;
+  height: 30px;
+  background: #7848f4;
+}
+.left {
+  margin-right: 25%;
+  margin-left: 50px;
+}
+.right {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  background-size: cover;
+  color: black;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.text {
+  text-align: left;
+  width: 150%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+button {
+  color: white;
+  width: 250px;
+  height: 7vh;
+  border-radius: 8px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#buttonrightsidefirst {
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+#buttonrightsidesecond {
+  background-color: gray;
+}
