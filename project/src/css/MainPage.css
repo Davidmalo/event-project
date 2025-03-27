@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('../assets/fonts/ProductSans-Regular.woff2') format('woff2'),
+         url('../assets/fonts/ProductSans-Regular.woff') format('woff'),
+         url('../assets/fonts/ProductSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainPage{
+    background-color: rgb(249, 247, 247);
+}
+.topPage{
+    width: 94%; /* קובע רוחב */
+    height: 510px; /* קובע גובה */
+    background-image: url('../assets//ErezImages/img1.jpeg'); 
+    background-size: cover; /* גורם לתמונה להתאים ולכסות את האלמנט */
+    background-position: center; /* ממרכז את התמונה */
+    background-repeat: no-repeat; /* מונע חזרה של התמונה */
+    margin: 0 auto;
+    border-radius: 10px;
+    
+      
+}
+.topPage h2{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    padding-top: 180px;
+    font-family: 'Product Sans', sans-serif;
+    width: 330px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.search-bar{
+    width: 88%;
+    margin: 0 auto;
+    background-color: #10107B;
+    padding: 20px;
+}
+.search-bar{
+    position: relative;
+    top: 170px;
+    border-radius: 18px;
+    height: 150px;
+    align-items: center;
+}
+.search-bar{
+    color: rgb(255, 255, 255);
+}
+.search-icon{
+    
+    background-color: #7848F4;
+    border-radius: 20px;
+    text-align: center;
+    padding: 25px;
+}
+
+.search-bar select{
+    width: 300px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: white;
+}
+.Upcoming{
+    height: 190px;
+    position: relative;
+    bottom: -30px;
+    align-items: center;
+    padding: 40px;
+}
+.Upcoming-title h4{
+    font-weight: bold;
+}
+.purple{
+    color: #7848F4;
+}
+.gray{
+    color: #687C94;
+}
+
+.Upcoming select{
+    width: 140px;
+    height: 60px;
+    margin-left: 19px;
+    border-radius: 9px;
+    background-color: #687C940D;
+    border:none
+}
+
+.oneCard{
+    width: 26%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.323);
+    border-radius: 4px;
+    padding: 2px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.card-img{
+    margin: 19px auto;
+    width: 94%;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-content{
+    width: 94%;
+    margin: 0 auto;
+}
+.card-title{
+    font-size: 17px;
+}
+
+.learn-more{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.learn-more button{
+    font-size: 19px;
+    padding: 16px;
+    background-color: #7848F4;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.CreateEvents{
+    
+    background-color: Navy ;
+    height: 252px;
+}
+.CreateEvents-img{
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+}
+.CreateEvents-img img{
+    height: 303px;
+    
+}
+.CreateEvents-text{
+    color: white;
+    padding: 15px;
+    position: relative;
+    left: 10%;
+}
+.CreateEvents-text button{
+    background-color: #7848F4;
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 240px;
+    font-size: 20px;
+}
