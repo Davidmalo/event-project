@@ -1,0 +1,13 @@
+
+button{
+    background-color: blueviolet;
+    color: white;
+    margin: 5px; 
+}
+input{
+    margin: 15px;
+}
+h2{
+    justify-content: center;
+    margin: 15px;
+}
