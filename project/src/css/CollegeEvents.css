@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-weight:  700px;
+   font-size:64px;
+   
+}
+ .images img{
+   width: 1746px;
+   height: 207px;
+   top:307px;
+   left:-153px;
+   gap:20px;
+   border-radius:20px;
+   margin:10px;
+
+
+}
+.images img:first-child,
+.images img:last-child {
+    margin-top:35px;
+
+
+}
+.images img:nth-child(2) {
+    height: 568.67px;
+    height: 299px;
+    margin-top: 0px;
+    
+    
+}
+
+
+.opt-select {
+    position: absolute;
+    right: 200px; 
+    display: flex;
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+.opt-title{
+ margin-left: 10px;
+    
+}
+
+.opt-select select{
+ 
+    justify-content: flex-end; /* זה דוחף את ה-select לצד ימין */
+    align-items: center; /* מיישר את ה-select אנכית אם צריך */
+    background-color: #f1f1f1;
+    width: 150px;
+    height: 50px;
+    margin:2px;
+    margin-right: 10px;
+ 
+}
+
+
