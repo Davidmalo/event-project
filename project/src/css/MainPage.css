@@ -157,3 +157,23 @@
     width: 240px;
     font-size: 20px;
 }
+
+.brands {
+    text-align: center;
+    padding: 34px;
+    font-weight: bold;
+}
+.brands h1{
+    padding: 14px;
+}
+.brands p{
+    padding: 14px;
+}
+.add img{
+    width: 200px;
+    height: auto;
+}
+.brands-title{
+    margin: 0 auto;
+    width: 380px;
+}

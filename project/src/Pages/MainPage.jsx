@@ -3,6 +3,12 @@ import '../css/MainPage.css'
 import img1 from '../assets/ErezImages/img1.jpeg'
 import img2 from '../assets/ErezImages/img2.jpeg'
 import img3 from '../assets/ErezImages/img3.png'
+import add1 from '../assets/ErezImages/add1.png'
+import add2 from '../assets/ErezImages/add2.png'
+import add3 from '../assets/ErezImages/add3.png'
+import add4 from '../assets/ErezImages/add4.png'
+import add5 from '../assets/ErezImages/add5.png'
+
 export default function MainPage() {
     return (
         <div className='mainPage'>
@@ -164,7 +170,7 @@ export default function MainPage() {
                     </div>
                 </div>
             </div>
-            
+
             <div className='learn-more'>
                 <button>Learn more</button>
             </div>
@@ -176,6 +182,17 @@ export default function MainPage() {
                     <h1>Make your own Event </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                     <button>Create Events</button>
+                </div>
+            </div>
+            <div className='brands'>
+                <div className='brands-title d-flex'><h1>Join these</h1><h1 className='purple'>brands</h1></div>
+                <p>We've had the pleasure of working with industry-defining brands. These are just some of them.</p>
+                <div className='add d-flex justify-content-around'>
+                    <img src={add1} alt="" />
+                    <img src={add2} alt="" />
+                    <img src={add3} alt="" />
+                    <img src={add4} alt="" />
+                    <img src={add5} alt="" />
                 </div>
             </div>
         </div>
